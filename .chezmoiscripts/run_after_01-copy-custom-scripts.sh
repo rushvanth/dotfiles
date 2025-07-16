@@ -8,5 +8,3 @@ for file in "$HOME/.zsh"/*; do
   [ -e "$file" ] || continue
   cp -f "$file" "$ZSH_CUSTOM/"
 done
-
-exec zsh

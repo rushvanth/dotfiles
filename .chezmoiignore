@@ -7,4 +7,4 @@ README.md
 
 */*.org# # Ignore org-mode backup files that end with `#`
 
-.oh-my-zsh/cache/completions/
+.oh-my-zsh/cache/**
