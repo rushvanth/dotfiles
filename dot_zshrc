@@ -81,6 +81,8 @@ zstyle ':omz:plugins:alias-finder' longer yes # disabled by default
 zstyle ':omz:plugins:alias-finder' exact yes # disabled by default
 zstyle ':omz:plugins:alias-finder' cheaper yes # disabled by default
 
+ZOXIDE_CMD_OVERRIDE="cd"
+
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
