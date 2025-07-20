@@ -8,3 +8,4 @@ README.md
 */*.org# # Ignore org-mode backup files that end with `#`
 
 .oh-my-zsh/cache/**
+.oh-my-zsh/custom/*.zsh
