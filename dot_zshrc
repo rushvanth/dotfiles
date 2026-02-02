@@ -1,5 +1,5 @@
 # If you come from bash you might have to change your $PATH.
-# export PATH=$HOME/bin:$HOME/.local/bin:/usr/local/bin:$PATH
+export PATH=$HOME/bin:$HOME/.local/bin:/usr/local/bin:$PATH
 
 # Path to your Oh My Zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
@@ -128,3 +128,5 @@ if [ -f '/Users/rushvanthbhaskar/Downloads/google-cloud-sdk/path.zsh.inc' ]; the
 
 # The next line enables shell command completion for gcloud.
 if [ -f '/Users/rushvanthbhaskar/Downloads/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/rushvanthbhaskar/Downloads/google-cloud-sdk/completion.zsh.inc'; fi
+
+export XDG_CONFIG_HOME="$HOME/.config"
